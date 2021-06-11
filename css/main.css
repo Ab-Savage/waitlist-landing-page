@@ -1253,13 +1253,18 @@ main {
 
 section.teaser {
   position: absolute;
-  bottom: -50%;
+  bottom: -20%;
   margin-top: 40px;
   box-shadow: 0px -16px 64px rgba(0, 0, 0, 0.25); }
+  @media (min-width: 768px) {
+    section.teaser {
+      bottom: -50%; } }
 
 .header-meta {
   display: flex;
   flex-direction: column; }
+  .header-meta p {
+    margin-bottom: 24px; }
   @media (min-width: 768px) {
     .header-meta {
       flex-direction: row;
