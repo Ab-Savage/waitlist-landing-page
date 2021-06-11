@@ -1,0 +1,100 @@
+button {
+	border: none;
+	transition: all 0.4s ease;
+	&:hover {
+		cursor: pointer;
+		transition: all 0.4s ease;
+	}
+}
+
+.btn {
+	padding: 12px 16px;
+	border-radius: 1px !important;
+	font-size: 16px;
+}
+.btn.btn--primary {
+	position: relative;
+	display: inline-block;
+	font-style: normal;
+	font-weight: 500;
+
+	line-height: 140%;
+	/* or 25px */
+	background: linear-gradient(90deg, #8473ED 0%, #E8167B 71.35%, #FFA09A 100%);
+	text-align: center;
+	letter-spacing: -1.25px;
+	cursor: pointer;
+	color: #fff;
+	box-shadow: 0px 143px 230px rgba(217, 45, 55, 0.0671644), 0px 66.1132px 106.336px rgba(217, 45, 55, 0.097037), 0px 37.8285px 60.843px rgba(217, 45, 55, 0.119613), 0px 22.9616px 36.9313px rgba(217, 45, 55, 0.140387), 0px 13.8354px 22.2527px rgba(217, 45, 55, 0.162963), 0px 7.70444px 12.3918px rgba(217, 45, 55, 0.192836), 0px 3.31363px 5.32961px rgba(217, 45, 55, 0.26);
+	.icon {
+		margin-left: 12px;
+	}
+
+	&:hover {
+		background: linear-gradient(90deg, #8473ED 0%, #E8167B 71.35%, #FFA09A 100%);
+		transform: translateY(-1px);
+	}
+}
+
+.btn.btn--secondary {
+	position: relative;
+	display: inline-block;
+	font-style: normal;
+	font-weight: 500;
+
+	line-height: 140%;
+	/* or 25px */
+	
+	text-align: center;
+	letter-spacing: -1.25px;
+	cursor: pointer;
+	color: #fff;
+	background: #111;
+	.icon {
+		margin-left: 12px;
+	}
+	&:after {
+		content: '';
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 2px;
+		background: linear-gradient(90deg, #8473ED 0%, #E8167B 71.35%, #FFA09A 100%), #C4C4C4;
+	}
+	&:hover {
+		background: #111;
+		&:after {
+			background: linear-gradient(180deg, #8473ED 0%, #E8167B 71.35%, #FFA09A 100%), #C4C4C4;
+			transition: all 0.3s ease-in-out;
+		}
+	}	
+}
+
+.btn-group {
+	a:first-of-type {
+		margin-right: 12px;
+	}
+}
+
+a.link--primary {
+	position: relative;
+	color: white;
+	font-size: 14px;
+	line-height: 1;
+	&:after {
+		content: '';
+		position: absolute;
+		width: 100%;
+		top: calc(100% + 2px);
+		left: 0;
+		right: 0;
+		height: 2px;
+		background: linear-gradient(90deg, #8473ED 0%, #E8167B 71.35%, #FFA09A 100%), #C4C4C4;
+		box-shadow: 0px 143px 230px rgba(217, 45, 55, 0.0671644), 0px 66.1132px 106.336px rgba(217, 45, 55, 0.097037), 0px 37.8285px 60.843px rgba(217, 45, 55, 0.119613), 0px 22.9616px 36.9313px rgba(217, 45, 55, 0.140387), 0px 13.8354px 22.2527px rgba(217, 45, 55, 0.162963), 0px 7.70444px 12.3918px rgba(217, 45, 55, 0.192836), 0px 3.31363px 5.32961px rgba(217, 45, 55, 0.26);		
+	}
+	&:hover {
+		text-decoration: none !important;
+	}
+}
