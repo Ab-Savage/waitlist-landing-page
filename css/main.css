@@ -1688,3 +1688,62 @@ body #mc_embed_signup {
       text-align: center;
       margin: 0 auto;
       display: block; }
+
+body.theme-alternate {
+  background: linear-gradient(180deg, #0A1C72 0%, #000000 100%), #000000;
+  background-image: url(/assets/img/background.png);
+  background-size: cover;
+  background-repeat: no-repeat; }
+  body.theme-alternate .brand {
+    margin: 0 auto;
+    width: fit-content; }
+  body.theme-alternate .header-meta {
+    justify-content: center;
+    align-items: center; }
+  body.theme-alternate .header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    body.theme-alternate .header-container h1 {
+      margin: 0 auto;
+      text-align: center;
+      position: relative; }
+      body.theme-alternate .header-container h1 span {
+        position: relative;
+        display: inline-block;
+        width: 150px;
+        height: 60px; }
+        body.theme-alternate .header-container h1 span img {
+          position: absolute;
+          bottom: 0;
+          left: 0; }
+  body.theme-alternate p {
+    margin-top: 8px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    text-align: center;
+    color: #D7DBF3; }
+  body.theme-alternate form input {
+    background: #0A1131;
+    border: none;
+    border-radius: 16px !important; }
+    body.theme-alternate form input:focus {
+      background: #0A1131; }
+  body.theme-alternate form input[type="submit"] {
+    border: none;
+    border-radius: 12px !important; }
+  body.theme-alternate form .form-group {
+    border: 2px solid #454854 !important;
+    border-radius: 16px !important; }
+  body.theme-alternate section.teaser {
+    position: absolute;
+    bottom: initial;
+    top: 70%;
+    margin-top: 40px;
+    box-shadow: 0px -16px 64px rgba(0, 0, 0, 0.25); }
+  @media (min-width: 768px) {
+    body.theme-alternate section.teaser {
+      top: 70%; } }
