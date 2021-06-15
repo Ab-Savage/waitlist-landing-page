@@ -45,26 +45,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body class="theme-alternate">
+<body>
 
     <main class="body-container">
         <header class="header">
             <div class="header-wrapper">
-                <div class="brand" style="margin: 0 auto; margin-bottom: 32px;">
+                <div class="brand" style="margin-bottom: 32px;">
                     <a href="/"><img src="/assets/img/logo.svg" alt=""></a>
                 </div> 
                 <div class="header-meta">
                     <div class="header-container">
-                        <h1>Workout <span>
-                            <img class="img" id="img1" src="/assets/img/banner.png" alt="">
-                            <img class="img" id="img2" src="/assets/img/cta-image.png" alt="">
-                            <img class="img" id="img3" src="/assets/img/hero.png" alt="">
-                            <img class="img" id="img4" src="/assets/img/hero-bg.png" alt="">
-                        </span><br/>Anywhere, Anytime.</h1>     
-                        <p>Reserve your spot for the ABSavage Beta now.
-                            Invites rolling out July 2021.</p> 
-
-
+                        <h1>Workout <br/>Anywhere,<br/> Anytime.</h1>     
+                        <p>ABSavage is your gym on demand with unlimited personal trainers</p> 
+                    </div>
+                    <div class="right">
+                        <div class="header-container">
+                            <p>Reserve your spot for the Beta now.
+                                Invites rolling out July 2021.</p>
 						<!-- Begin Mailchimp Signup Form -->
 						<div id="mc_embed_signup">
                             <form action="https://absavage.us6.list-manage.com/subscribe/post?u=d35cffe7306f5a53c5cf36d68&amp;id=f5cba91108" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate style="margin-top: 0;">
@@ -100,7 +97,8 @@
                                     </div>
                             </form>
                         </div>
-                        <!--End mc_embed_signup-->                           
+                        <!--End mc_embed_signup-->                                
+                        </div>
                     </div>
                 </div>
                 <div class="btn-group">
@@ -128,20 +126,6 @@
         </section>
 
     </main>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script>
-    $(document).ready(function() {
-        var count=0
-	    setInterval(function() {
-			$('.img').fadeOut(100)
-			if(count===4){count=0}
-			   count++
-               $('#img'+count).fadeIn(10)
-				
-        }, 400);
 
-    });
-
-</script>
 </body>
 </html>
