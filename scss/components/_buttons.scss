@@ -20,7 +20,7 @@ button {
 
 	line-height: 140%;
 	/* or 25px */
-	background: linear-gradient(90deg, #8473ED 0%, #E8167B 71.35%, #FFA09A 100%);
+	background: #F52D56;
 	text-align: center;
 	letter-spacing: -1.25px;
 	cursor: pointer;
@@ -31,7 +31,7 @@ button {
 	}
 
 	&:hover {
-		background: linear-gradient(90deg, #8473ED 0%, #E8167B 71.35%, #FFA09A 100%);
+
 		transform: translateY(-1px);
 	}
 }
